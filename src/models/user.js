@@ -12,14 +12,6 @@ var schema = mongoose.Schema({
   email : {
 		type: String,
 		required: true
-	},
-	photo : {
-		type: String,
-		required: false
-	},
-	nickname: {
-		type: String,
-		required: false
 	}
 });
 

@@ -1,0 +1,5 @@
+Использует этот проект для rest api:
+https://github.com/renanlopescoder/rest-api-node
+
+Возможно отсюда можно подсмотреть как делать логин:
+http://mobx-react.herokuapp.com/ | https://github.com/renanlopescoder/mobx-react

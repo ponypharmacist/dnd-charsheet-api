@@ -1,11 +1,11 @@
 const mongoose = require('mongoose');
-const model = mongoose.model('Project');
+const model = mongoose.model('Charsheet');
 
 let actions = {};
 
 actions.list = (req, res) => {
 	model.find({})
-		.then(projects => res.status(200).json(projects))
+		.then(charsheets => res.status(200).json(charsheets))
 		.catch(error => res.status(500).json(error))
 };
 
@@ -17,7 +17,7 @@ actions.create = (req, res) => {
 
 actions.searchById = (req, res) => {
 	model.findById(req.params.id)
-		.then(project => res.status(200).json(project))
+		.then(charsheet => res.status(200).json(charsheet))
 		.catch(error => res.status(404).json(error))
 };
 
@@ -29,7 +29,7 @@ actions.deleteById = (req, res) => {
 
 actions.update = (req, res) => {
 	model.findByIdAndUpdate(req.params.id, req.body)
-		.then(project => res.status(200).json(project))
+		.then(charsheet => res.status(200).json(charsheet))
 		.catch(error => res.status(404).json(error))
 };
 
