@@ -3,3 +3,12 @@ https://github.com/renanlopescoder/rest-api-node
 
 Возможно отсюда можно подсмотреть как делать логин:
 http://mobx-react.herokuapp.com/ | https://github.com/renanlopescoder/mobx-react
+Невозможно. Нифига не понятно.
+
+
+https://dnd-charsheet-api.herokuapp.com/users
+https://dnd-charsheet-api.herokuapp.com/charsheets
+
+
+Что не понятно?
+как использовать jwt jsonwebtoken правильно?
