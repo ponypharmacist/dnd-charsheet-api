@@ -10,6 +10,10 @@ var schema = mongoose.Schema({
 		type: String,
 		required: false
 	},
+	subrace: {
+		type: String,
+		required: false
+	},
 	class: {
 		type: String,
 		required: false
@@ -48,6 +52,18 @@ var schema = mongoose.Schema({
 	},
 	charisma: {
 		type: Number,
+		required: false
+	},
+	languages: {
+		type: Array,
+		required: false
+	},
+	feats: {
+		type: Array,
+		required: false
+	},
+	proficiencies: {
+		type: Array,
 		required: false
 	}
 });
