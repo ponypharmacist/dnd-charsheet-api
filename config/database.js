@@ -14,8 +14,7 @@
 	let mongoose = require('mongoose');
 
 	mongoose.Promise = global.Promise;
-
-	mongoose.connect('mongodb://evilglen:1366613glen@ds225308.mlab.com:25308/charsheets', { useMongoClient: true });
+	mongoose.connect('mongodb://evilglen:1366613glen@ds161700.mlab.com:61700/heroku_91pxqgkn', { useMongoClient: true });
 
 // Function to print in console if the database connection was a success
 	mongoose.connection.on('connected', function(){
