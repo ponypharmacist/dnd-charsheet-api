@@ -6,6 +6,10 @@ var schema = mongoose.Schema({
 		type: String,
 		required: false
 	},
+	gender: {
+		type: String,
+		required: false
+	},
 	race: {
 		type: String,
 		required: false
