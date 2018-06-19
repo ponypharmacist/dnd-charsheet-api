@@ -6,68 +6,76 @@ var schema = mongoose.Schema({
 		type: String,
 		required: false
 	},
-	gender: {
+	characterGender: {
 		type: String,
 		required: false
 	},
-	race: {
+	characterRace: {
 		type: String,
 		required: false
 	},
-	subrace: {
+	characterSubrace: {
 		type: String,
 		required: false
 	},
-	class: {
+	characterClass: {
 		type: String,
 		required: false
 	},
-	level: {
+	characterLevel: {
 		type: Number,
 		required: false
 	},
-	background: {
+	characterBackground: {
 		type: String,
 		required: false
 	},
-	alignment: {
+	characterAlignment: {
 		type: String,
 		required: false
 	},
-	strength: {
+	characterStrength: {
 		type: Number,
 		required: false
 	},
-	dexterity: {
+	characterDexterity: {
 		type: Number,
 		required: false
 	},
-	constitution: {
+	characterConstitution: {
 		type: Number,
 		required: false
 	},
-	intelligence: {
+	characterIntelligence: {
 		type: Number,
 		required: false
 	},
-	wisdom: {
+	characterWisdom: {
 		type: Number,
 		required: false
 	},
-	charisma: {
+	characterCharisma: {
 		type: Number,
 		required: false
 	},
-	languages: {
+	characterLanguages: {
 		type: Array,
 		required: false
 	},
-	feats: {
+	characterFeats: {
 		type: Array,
 		required: false
 	},
-	proficiencies: {
+	characterProficiencies: {
 		type: Array,
+		required: false
+	},
+	characterMaxHealth: {
+		type: Number,
+		required: false
+	},
+	characterCurrentHealth: {
+		type: Number,
 		required: false
 	}
 });
