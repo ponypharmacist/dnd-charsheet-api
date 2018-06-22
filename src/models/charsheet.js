@@ -6,10 +6,6 @@ var schema = mongoose.Schema({
 		type: String,
 		required: false
 	},
-	characterGender: {
-		type: String,
-		required: false
-	},
 	characterRace: {
 		type: String,
 		required: false
@@ -27,10 +23,6 @@ var schema = mongoose.Schema({
 		required: false
 	},
 	characterBackground: {
-		type: String,
-		required: false
-	},
-	characterAlignment: {
 		type: String,
 		required: false
 	},
