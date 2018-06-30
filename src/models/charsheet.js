@@ -2,32 +2,32 @@ var mongoose = require('mongoose');
 
 // The permitted SchemaTypes are: String, Number, Date, Boolean, Array, Map
 var schema = mongoose.Schema({
-	characterName: { type: String, required: false },
-	characterLevel: {	type: Number,	required: false },
-	characterRace: { type: String,	required: false	},
-	characterSubrace: {	type: String,	required: false },
-	characterClass: {	type: String,	required: false },
-	characterBackground: { type: String,	required: false },
+	name: { type: String, required: false },
+	level: {	type: Number,	required: false },
+	race: { type: String,	required: false	},
+	subrace: {	type: String,	required: false },
+	clas: {	type: String,	required: false },
+	background: { type: String,	required: false },
 
-	characterStrength: { type: Number,	required: false },
-	characterDexterity: {	type: Number,	required: false },
-	characterConstitution: { type: Number, required: false },
-	characterIntelligence: { type: Number, required: false },
-	characterWisdom: { type: Number, required: false },
-	characterCharisma: { type: Number, required: false },
+	strength: { type: Number,	required: false },
+	dexterity: {	type: Number,	required: false },
+	constitution: { type: Number, required: false },
+	intelligence: { type: Number, required: false },
+	wisdom: { type: Number, required: false },
+	charisma: { type: Number, required: false },
 
-	characterLanguages: { type: String, required: false },
-	characterFeats: { type: Array, required: false },
-	characterProficienciesCombat: { type: String, required: false },
-	characterSkills: { type: Array, required: false },
-	characterTools: { type: String, required: false },
+	languages: { type: String, required: false },
+	feats: { type: Array, required: false },
+	proficienciesCombat: { type: String, required: false },
+	skills: { type: Array, required: false },
+	tools: { type: String, required: false },
 
-	characterMaxHealth: { type: Number, required: false },
+	maxHealth: { type: Number, required: false },
 	healthBonusFromFeats: { type: Number, required: false },
-	characterCurrentHealth: { type: Number, required: false },
-	characterSpeed: { type: Number, required: false },
-	characterGold: { type: Number, required: false },
-	characterItems: { type: String, required: false }
+	currentHealth: { type: Number, required: false },
+	speed: { type: Number, required: false },
+	gold: { type: Number, required: false },
+	items: { type: String, required: false }
 });
 
 mongoose.model('Charsheet', schema);
