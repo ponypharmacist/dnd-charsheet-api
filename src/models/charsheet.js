@@ -27,7 +27,13 @@ var schema = mongoose.Schema({
 	currentHealth: { type: Number, required: false },
 	speed: { type: Number, required: false },
 	gold: { type: Number, required: false },
-	items: { type: String, required: false }
+	items: { type: String, required: false },
+
+	armor: { type: String, required: false },
+	shield: { type: Boolean, required: false },
+	weaponMelee: { type: String, required: false },
+	weaponMelee2: { type: String, required: false },
+	weaponRanged: { type: String, required: false }
 });
 
 mongoose.model('Charsheet', schema);
