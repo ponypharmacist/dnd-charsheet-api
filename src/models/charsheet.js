@@ -22,8 +22,6 @@ var schema = mongoose.Schema({
 	skills: { type: Array, required: false },
 	tools: { type: String, required: false },
 
-	maxHealth: { type: Number, required: false },
-	healthBonusFromFeats: { type: Number, required: false },
 	currentHealth: { type: Number, required: false },
 	speed: { type: Number, required: false },
 	gold: { type: Number, required: false },
