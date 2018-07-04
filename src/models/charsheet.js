@@ -24,7 +24,10 @@ var schema = mongoose.Schema({
 
 	currentHealth: { type: Number, required: false },
 	speed: { type: Number, required: false },
+	copper: { type: Number, required: false },
+	silver: { type: Number, required: false },
 	gold: { type: Number, required: false },
+	platinum: { type: Number, required: false },
 	items: { type: String, required: false },
 
 	armor: { type: String, required: false },
