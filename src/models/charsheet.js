@@ -29,6 +29,7 @@ var schema = mongoose.Schema({
 	gold: { type: Number, required: false },
 	platinum: { type: Number, required: false },
 	items: { type: String, required: false },
+	notes: { type: String, required: false },
 
 	armor: { type: String, required: false },
 	shield: { type: Boolean, required: false },
