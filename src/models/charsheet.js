@@ -21,6 +21,7 @@ var schema = mongoose.Schema({
 	proficienciesCombat: { type: String, required: false },
 	skills: { type: Array, required: false },
 	tools: { type: String, required: false },
+	spellslots: { type: Array, required: false },
 
 	currentHealth: { type: Number, required: false },
 	speed: { type: Number, required: false },
@@ -30,6 +31,7 @@ var schema = mongoose.Schema({
 	platinum: { type: Number, required: false },
 	items: { type: String, required: false },
 	notes: { type: String, required: false },
+	flavor: { type: String, required: false },
 
 	armor: { type: String, required: false },
 	shield: { type: Boolean, required: false },
