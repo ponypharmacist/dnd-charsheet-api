@@ -23,6 +23,7 @@ var schema = mongoose.Schema({
 	tools: { type: String, required: false },
 	spellslots: { type: Array, required: false },
 
+	maxHealth: { type: Number, required: false },
 	currentHealth: { type: Number, required: false },
 	speed: { type: Number, required: false },
 	copper: { type: Number, required: false },
