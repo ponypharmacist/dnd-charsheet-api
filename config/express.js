@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const consign = require('consign');
 const server = express();
+const path = require('path');
 
 server.use(bodyParser.json());
 server.set('secret', 'opensecret');
