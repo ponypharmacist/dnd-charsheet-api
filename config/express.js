@@ -6,7 +6,7 @@ const server = express();
 
 const path = require('path');
 server.get('/',function(req,res){
-  res.sendFile(path.join(__dirname+'/index.html'));
+  res.sendFile(path.join(__dirname, '/index.html'));
 });
 
 server.use(bodyParser.json());
