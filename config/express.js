@@ -5,6 +5,9 @@ const consign = require('consign');
 const server = express();
 
 const path = require('path');
+
+server.use(express.static('public'));
+
 server.get('/',function(req,res){
   res.sendFile(path.join(__dirname, '/index.html'));
 });
