@@ -14,7 +14,9 @@
 	let mongoose = require('mongoose');
 
 	mongoose.Promise = global.Promise;
-	mongoose.connect('mongodb://evilglen:1366613glen@ds161700.mlab.com:61700/heroku_91pxqgkn', { useMongoClient: true });
+	// mongoose.connect('mongodb://evilglen:1366613glen@ds161700.mlab.com:61700/heroku_91pxqgkn', { useMongoClient: true });
+	// mongoose.connect('mongodb+srv://evilglen:1366613glen@dnd-dpurh.mongodb.net/test?retryWrites=true', { useMongoClient: true });
+	mongoose.connect('mongodb://evilglen:1366613glen@dnd-shard-00-00-dpurh.mongodb.net:27017,dnd-shard-00-01-dpurh.mongodb.net:27017,dnd-shard-00-02-dpurh.mongodb.net:27017/test?ssl=true&replicaSet=dnd-shard-0&authSource=admin&retryWrites=true', { useMongoClient: true });
 
 // Function to print in console if the database connection was a success
 	mongoose.connection.on('connected', function(){
